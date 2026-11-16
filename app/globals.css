@@ -1,26 +1,19 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* Colores y fuentes de RecetApp (los mismos de los mockups) */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-paprika: #C2410C;
+  --color-paprika-oscuro: #9A3412;
+  --color-paprika-suave: #FDEBDD;
+  --color-crema: #F7F4EF;
+  --color-borde: #E7E1D8;
+  --color-tinta: #1F1B16;
+  --color-gris: #5F5A54;
+  --font-sans: var(--font-inter);
+  --font-titulo: var(--font-bricolage);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-tinta);
 }
